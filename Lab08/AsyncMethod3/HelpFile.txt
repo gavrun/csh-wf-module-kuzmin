@@ -1,0 +1,45 @@
+==========================
+Help Guide for Application
+==========================
+
+1. Overview
+-----------
+Application helps with:
+- Data management.
+- Information analysis.
+- Report generation.
+
+Core features:
+- Add, delete, and view data.
+- Generate detailed reports.
+
+2. Main Menu
+------------
+- **File**:
+  - New: Create a new project.
+  - Open: Load an existing project.
+  - Save: Save current changes.
+
+- **Edit**:
+  - Copy: Copy selected data.
+  - Paste: Insert copied data.
+
+- **Help**:
+  - Open this guide.
+
+3. FAQ
+------
+- **Q**: How to create a new project?
+  **A**: Go to File ? New.
+
+- **Q**: Why can't I save?
+  **A**: Ensure there are changes to save.
+
+- **Q**: How to recover deleted data?
+  **A**: Use the backup file if available.
+
+4. Support
+----------
+Contact us for assistance:
+- Email: support@application.com
+- Phone: +1-800-555-HELP
