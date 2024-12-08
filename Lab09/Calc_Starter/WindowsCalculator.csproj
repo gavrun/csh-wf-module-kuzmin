@@ -70,10 +70,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CalculatorEngine">
-      <Name>CalculatorEngine</Name>
-      <HintPath>CalculatorEngine\bin\Debug\CalculatorEngine.dll</HintPath>
-    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -103,6 +99,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CalculatorEngine\CalculatorEngine.csproj">
+      <Project>{429b62d7-a754-484e-90b9-fa28d0cec101}</Project>
+      <Name>CalculatorEngine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
